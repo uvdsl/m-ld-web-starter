@@ -14,6 +14,12 @@ web app.
 1. Run the server with `node index.js`
 1. In a browser, navigate to http://localhost:3000/
 
+## Build and run using Docker
+```
+docker build -t m-ld-web-starter:latest .
+docker run -d -p 3000:3000 --name M-LD-WEB-STARTER m-ld-web-starter:latest
+```
+
 ## walkthrough
 
 On the app homepage, you are asked to provide a form name to create or edit.
